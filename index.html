@@ -563,7 +563,8 @@
   // or one specific memory reads better than a paragraph. For example:
   //   "The way you make ordinary Tuesdays feel like something good is happening."
   var THINGS = [
-    "I love how empathetic you are — like the time you cried after learning how humans abandoned pigeons."
+    "I love how empathetic you are — like the time you cried after learning how humans abandoned pigeons.",
+    "I love how you're always there for me — no matter what's going on, you make time for me, even when I don't deserve it."
   ];
   for (var i = THINGS.length + 1; i <= 100; i++) {
     THINGS.push("Reason #" + i + " — write your own line here.");
@@ -785,7 +786,7 @@
     canvas.style.width = w + "px";
     canvas.style.height = h + "px";
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    var count = Math.max(16, Math.min(40, Math.round((w * h) / 28000)));
+    var count = Math.max(70, Math.min(180, Math.round((w * h) / 8000)));
     petalsList = [];
     for (var i = 0; i < count; i++) {
       petalsList.push({
